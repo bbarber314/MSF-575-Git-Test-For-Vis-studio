@@ -143,7 +143,9 @@
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\runner.cpp" />
+    <ClCompile Include="source\chapter1\MSF_575_Chapter1Ex1.cpp" />
+    <ClCompile Include="source\chapter1\MSF_575_Chapter1Ex2.cpp" />
+    <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="readMe.txt" />
