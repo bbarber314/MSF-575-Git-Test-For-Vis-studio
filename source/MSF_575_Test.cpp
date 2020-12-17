@@ -1,5 +1,4 @@
-#include "../headers/stdafx.h"
-#include <iostream>
+#include "../headers/stdafx.h" //Using <iostream> from stdafx.h
 using namespace std;
 
 int main(int argc, string argv[]) {
