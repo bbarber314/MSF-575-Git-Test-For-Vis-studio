@@ -1,7 +1,7 @@
 #include "../../headers/stdafx.h" //Using <iostream> from stdafx.h
 using namespace std;
 
-int main() {
+int chapter1ex1() {
 	//variable initialization
 	int a = 0;
 	int b = 0;

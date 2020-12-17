@@ -23,7 +23,10 @@
     <ClCompile Include="source\test\MSF_575_Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\chapter1\MSF_575_Chapter1.cpp">
+    <ClCompile Include="source\chapter1\MSF_575_Chapter1Ex1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="runner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
