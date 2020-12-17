@@ -2,20 +2,20 @@
 using namespace std;
 
 struct Date {
-	int day;
-	int month;
-	int year;
+	int day=1;
+	int month=1;
+	int year=2000;
 };
 
 struct Bar
 {
 	Date BarDate;
 	string Symbol;
-	double OpenPrice;
-	double ClosePrice;
-	double HighPrice;
-	double LowPrice;
-	int Volume;
+	double OpenPrice=100;
+	double ClosePrice=100;
+	double HighPrice=101;
+	double LowPrice=99;
+	int Volume=1;
 };
 
 void chapter1ex2() {
