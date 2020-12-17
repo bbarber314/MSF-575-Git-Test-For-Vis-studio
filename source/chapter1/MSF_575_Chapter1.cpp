@@ -13,22 +13,28 @@ int main() {
 	cin >> b;
 
 	//thank the user
-	cout << "Thank you kindly, good user!" << endl;
+	cout << "Thank you kindly, good user!\n" << endl;
 
 	//add the variables
 	cout << "a=" << a << endl;
 	cout << "b=" << b << endl;
-	cout << "a+b=" << a + b << endl;
-	cout << endl;
+	cout << "a+b=" << a + b << "\n" << endl;
 
 	//reference the variables
 	int &c = a;
 	int &d = b;
 
-	cout << "&c=a. c=" << c << endl;
-	cout << "&d=b. d=" << d << endl;
-	cout << "c+d=" << c+d << endl;
-	cout << endl;
+	cout << "&c=a. c=" << c <<  endl;
+	cout << "&d=b. d=" << d <<  endl;
+	cout << "c+d=" << c+d << "\n" << endl;
+
+	//pointer to the referent
+	int *e = &a;
+	int *f = &b;
+
+	cout << "*e=&a. e=" << e << endl;
+	cout << "*f=&b. f=" << f << endl;
+	cout << "*e+*f=" << *e + *f << endl;
 
 	return 0;
 }
