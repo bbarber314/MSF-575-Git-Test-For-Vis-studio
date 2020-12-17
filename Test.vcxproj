@@ -139,12 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="headers\functions.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="runner.cpp" />
-    <ClCompile Include="source\chapter1\MSF_575_Chapter1Ex1.cpp" />
-    <ClCompile Include="source\test\MSF_575_Test.cpp" />
+    <ClCompile Include="source\runner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="readMe.txt" />
