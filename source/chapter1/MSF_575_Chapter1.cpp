@@ -19,4 +19,16 @@ int main() {
 	cout << "a=" << a << endl;
 	cout << "b=" << b << endl;
 	cout << "a+b=" << a + b << endl;
+	cout << endl;
+
+	//reference the variables
+	int &c = a;
+	int &d = b;
+
+	cout << "&c=a. c=" << c << endl;
+	cout << "&d=b. d=" << d << endl;
+	cout << "c+d=" << c+d << endl;
+	cout << endl;
+
+	return 0;
 }
