@@ -29,11 +29,5 @@
     <ClCompile Include="source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\chapter1\MSF_575_Chapter1Ex1.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="source\chapter1\MSF_575_Chapter1Ex2.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

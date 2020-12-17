@@ -1,3 +1,6 @@
+#include "../../headers/stdafx.h" //Using <iostream> from stdafx.h
+using namespace std;
+
 struct Date {
 	int day;
 	int month;
@@ -7,7 +10,7 @@ struct Date {
 struct Bar
 {
 	Date BarDate;
-	char* Symbol;
+	string Symbol;
 	double OpenPrice;
 	double ClosePrice;
 	double HighPrice;
